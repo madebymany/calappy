@@ -1,0 +1,146 @@
+PODS:
+  - Google-API-Client (0.1.0):
+    - Google-API-Client/AdSense
+    - Google-API-Client/Analytics
+    - Google-API-Client/AppState
+    - Google-API-Client/Blogger
+    - Google-API-Client/Books
+    - Google-API-Client/Calendar
+    - Google-API-Client/CivicInfo
+    - Google-API-Client/Common
+    - Google-API-Client/Compute
+    - Google-API-Client/Discovery
+    - Google-API-Client/DoubleClickBidManager
+    - Google-API-Client/Drive
+    - Google-API-Client/Groupssettings
+    - Google-API-Client/Licensing
+    - Google-API-Client/Mirror
+    - Google-API-Client/Orkut
+    - Google-API-Client/Plus
+    - Google-API-Client/PlusDomains
+    - Google-API-Client/Prediction
+    - Google-API-Client/Spectrum
+    - Google-API-Client/SQLAdmin
+    - Google-API-Client/Storage
+    - Google-API-Client/Tasks
+    - Google-API-Client/Urlshortener
+    - Google-API-Client/YouTube
+    - Google-API-Client/YouTubeAnalytics
+    - gtm-oauth2
+    - GTMHTTPFetcher
+  - Google-API-Client/AdSense (0.1.0):
+    - Google-API-Client/Common
+    - gtm-oauth2
+    - GTMHTTPFetcher
+  - Google-API-Client/Analytics (0.1.0):
+    - Google-API-Client/Common
+    - gtm-oauth2
+    - GTMHTTPFetcher
+  - Google-API-Client/AppState (0.1.0):
+    - Google-API-Client/Common
+    - gtm-oauth2
+    - GTMHTTPFetcher
+  - Google-API-Client/Blogger (0.1.0):
+    - Google-API-Client/Common
+    - gtm-oauth2
+    - GTMHTTPFetcher
+  - Google-API-Client/Books (0.1.0):
+    - Google-API-Client/Common
+    - gtm-oauth2
+    - GTMHTTPFetcher
+  - Google-API-Client/Calendar (0.1.0):
+    - Google-API-Client/Common
+    - gtm-oauth2
+    - GTMHTTPFetcher
+  - Google-API-Client/CivicInfo (0.1.0):
+    - Google-API-Client/Common
+    - gtm-oauth2
+    - GTMHTTPFetcher
+  - Google-API-Client/Common (0.1.0):
+    - gtm-oauth2
+    - GTMHTTPFetcher
+  - Google-API-Client/Compute (0.1.0):
+    - Google-API-Client/Common
+    - gtm-oauth2
+    - GTMHTTPFetcher
+  - Google-API-Client/Discovery (0.1.0):
+    - Google-API-Client/Common
+    - gtm-oauth2
+    - GTMHTTPFetcher
+  - Google-API-Client/DoubleClickBidManager (0.1.0):
+    - Google-API-Client/Common
+    - gtm-oauth2
+    - GTMHTTPFetcher
+  - Google-API-Client/Drive (0.1.0):
+    - Google-API-Client/Common
+    - gtm-oauth2
+    - GTMHTTPFetcher
+  - Google-API-Client/Groupssettings (0.1.0):
+    - Google-API-Client/Common
+    - gtm-oauth2
+    - GTMHTTPFetcher
+  - Google-API-Client/Licensing (0.1.0):
+    - Google-API-Client/Common
+    - gtm-oauth2
+    - GTMHTTPFetcher
+  - Google-API-Client/Mirror (0.1.0):
+    - Google-API-Client/Common
+    - gtm-oauth2
+    - GTMHTTPFetcher
+  - Google-API-Client/Orkut (0.1.0):
+    - Google-API-Client/Common
+    - gtm-oauth2
+    - GTMHTTPFetcher
+  - Google-API-Client/Plus (0.1.0):
+    - Google-API-Client/Common
+    - gtm-oauth2
+    - GTMHTTPFetcher
+  - Google-API-Client/PlusDomains (0.1.0):
+    - Google-API-Client/Common
+    - gtm-oauth2
+    - GTMHTTPFetcher
+  - Google-API-Client/Prediction (0.1.0):
+    - Google-API-Client/Common
+    - gtm-oauth2
+    - GTMHTTPFetcher
+  - Google-API-Client/Spectrum (0.1.0):
+    - Google-API-Client/Common
+    - gtm-oauth2
+    - GTMHTTPFetcher
+  - Google-API-Client/SQLAdmin (0.1.0):
+    - Google-API-Client/Common
+    - gtm-oauth2
+    - GTMHTTPFetcher
+  - Google-API-Client/Storage (0.1.0):
+    - Google-API-Client/Common
+    - gtm-oauth2
+    - GTMHTTPFetcher
+  - Google-API-Client/Tasks (0.1.0):
+    - Google-API-Client/Common
+    - gtm-oauth2
+    - GTMHTTPFetcher
+  - Google-API-Client/Urlshortener (0.1.0):
+    - Google-API-Client/Common
+    - gtm-oauth2
+    - GTMHTTPFetcher
+  - Google-API-Client/YouTube (0.1.0):
+    - Google-API-Client/Common
+    - gtm-oauth2
+    - GTMHTTPFetcher
+  - Google-API-Client/YouTubeAnalytics (0.1.0):
+    - Google-API-Client/Common
+    - gtm-oauth2
+    - GTMHTTPFetcher
+  - gtm-oauth2 (0.1.0):
+    - GTMHTTPFetcher
+  - GTMHTTPFetcher (0.1.0)
+
+DEPENDENCIES:
+  - Google-API-Client (~> 0.1.0)
+
+SPEC CHECKSUMS:
+  Google-API-Client: 7fb00781a9b10d508391e7e575ac37f29c87ed27
+  gtm-oauth2: 64f2d404a50676ab63b5437a02a7567da8f8b7fa
+  GTMHTTPFetcher: 0f02d5a5803dd08736462981064de6a7f59cf9bd
+
+COCOAPODS: 0.34.1

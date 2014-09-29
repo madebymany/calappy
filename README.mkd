@@ -1,0 +1,19 @@
+# Calappy
+
+An iPad app to show a Google Calendar resource's availability for the day in a glanceable format.
+
+## Building
+
+Dependencies are managed with [CocoaPods](http://cocoapods.org/), so install that and do a `pod install` in this directory. Then open the newly-created `Calappy.xcworkspace` and everything should build happily.
+
+## Configuration
+
+This being a super-simple initial release, configuration is hard-coded for the moment. You'll need to give a Google API client ID and secret in `Calappy/MXMGoogleManager.h`, and a couple of names and IDs of resources you'd like to show. To deal with more than two resources, you'll need to modify `Calappy/MXMRoomSelectViewController.m` appropriately, currently in `viewDidLoad`. This is obviously not very pretty, but we didn't have a pressing need for anything more elaborately configurable. You probably also want to change the `organizerEmailSuffix` in `Calappy/GTLCalendarEvent+MXMTableCells.h` to something that matches your domain. This is so that the name shown in the app is someone from your organisation.
+
+## Contributing
+
+Feel free to send pull requests if you like! This all is completely unsupported, and will probably only gain features if we have the need or time here.
+
+## Licence
+
+BSD 3-clause. See the `LICENSE` file for the full text.
