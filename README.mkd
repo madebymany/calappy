@@ -9,7 +9,9 @@ Dependencies are managed with [CocoaPods](http://cocoapods.org/), so install tha
 ## Configuration
 
 This being a super-simple initial release, configuration is hard-coded for the moment. You'll need to give a Google API client ID and secret in `Calappy/MXMGoogleManager.h`, and a couple of names and IDs of resources you'd like to show. To deal with more than two resources, you'll need to modify `Calappy/MXMRoomSelectViewController.m` appropriately, currently in `viewDidLoad`. This is obviously not very pretty, but we didn't have a pressing need for anything more elaborately configurable. You probably also want to change the `organizerEmailSuffix` in `Calappy/GTLCalendarEvent+MXMTableCells.h` to something that matches your domain. This is so that the name shown in the app is someone from your organisation.
-
+When getting your auth, make sure to do the following. Click OAuth client ID. When it asks for application type, do not select
+iOS {we know it is super tempting, but dont}. Instead click other. That will provide you the client ID and client secret. Use
+that for the manager.h piece
 ## Contributing
 
 Feel free to send pull requests if you like! This all is completely unsupported, and will probably only gain features if we have the need or time here.
